@@ -1,0 +1,1 @@
+This a quick recap about my projects and my achievements as a junior Embedded Software Engineer

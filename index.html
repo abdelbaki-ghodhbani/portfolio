@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdelbaki Ghodhbani Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 0.5em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 2em;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #444;
+            display: inline-block;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .project {
+            margin: 1em 0;
+            padding: 1em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .project h3 {
+            margin: 0;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 0;
+        }
+        .skills-list li {
+            background-color: #f4f4f4;
+            margin: 0.5em;
+            padding: 0.5em 1em;
+            border-radius: 5px;
+        }
+        .contact-info a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Abdelbaki Ghodhbani Portfolio</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Motivated and skilled Junior Embedded Software Engineer with practical experience in embedded C, C++, and IoT technologies. Specialized in designing and developing low-level drivers and implementing firmware solutions for embedded systems. Proficient in communication protocols like UART, I2C, and MQTT.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Embedded C, C++, Python, Java, MATLAB</li>
+                <li>Assembler</li>
+                <li>HTML, CSS</li>
+                <li>Git/GitHub</li>
+                <li>STM32CubeIDE, ArduinoIDE, QT, Simulink</li>
+                <li>RTOS, Linux</li>
+                <li>UART, I2C, SPI, MQTT, CAN</li>
+                <li>Altium Designer, LTspice, Proteus</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Connected Weather Station</h3>
+                <p>Developed a connected weather station with cloud-based data transmission.</p>
+                <p>Technologies: STM32, ESP8266, UART, I2C, ThingSpeak</p>
+            </div>
+            <div class="project">
+                <h3>Temperature Regulation System</h3>
+                <p>Designed a QT-based graphical interface for temperature regulation.</p>
+                <p>Technologies: C++, QT, Arduino</p>
+            </div>
+            <div class="project">
+                <h3>Electronic Board with ADXL345</h3>
+                <p>Created an electronic board layout in Altium Designer and coded Arduino Nano for I2C communication.</p>
+                <p>Technologies: C++, Arduino, I2C, Altium Designer</p>
+            </div>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="project">
+                <h3>Embedded Software Engineer Intern - Comelit Group S.p.A.</h3>
+                <p>Developed low-level drivers for ESP8266 WiFi module interfacing with STM32 microcontroller.</p>
+                <p>Created a remote TCP server using AT commands for a web-based home device control system.</p>
+                <p>Technologies: STM32, ESP8266, UART, TCP/IP, Git</p>
+            </div>
+            <div class="project">
+                <h3>Embedded Systems and IoT Intern - Tinest</h3>
+                <p>Implemented LoRa/LoRaWAN for IoT communications and temperature sensor integration.</p>
+                <p>Designed a real-time dashboard for remote temperature monitoring.</p>
+                <p>Technologies: Python, C++, MQTT, Arduino</p>
+            </div>
+            <div class="project">
+                <h3>Electrical Engineering Intern - DRÄXLMAIER GROUP</h3>
+                <p>Assisted in quality control for automotive connectors and performed electrical testing.</p>
+                <p>Technologies: Quality Control, Electrical Testing</p>
+            </div>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>ENIM - National Engineering School of Monastir:</strong> Electrical Engineering Diploma (2021–2024, Final Year Average: 76.15%)</li>
+                <li><strong>IPEIEM - Institute for Preparatory Engineering Studies El Manar:</strong> Admitted to national contest for engineering schools (2019–2021)</li>
+                <li><strong>Kasserine Pilot High School:</strong> Technical Science Baccalaureate with Highest Honor (Final Average: 83.95%)</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:ghodhbaniabdelbaki4@gmail.com">ghodhbaniabdelbaki4@gmail.com</a></p>
+                <p>Phone: +216 26797232</p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/abdelbaki-ghodhbani/" target="_blank">linkedin.com/in/abdelbaki-ghodhbani</a></p>
+                <p>GitHub: <a href="https://github.com/abdelbaki-ghodhbani" target="_blank">github.com/abdelbaki-ghodhbani</a></p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Abdelbaki Ghodhbani. All rights reserved.</p>
+    </footer>
+</body>
+</html>
